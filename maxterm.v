@@ -5,6 +5,6 @@ module maxterm (
 
     assign Y = (~B | ~D) &
         (B | C | D) &
-        (~A | B | ~D);// Enter your equation here
+        (~A | ~D);// Enter your equation here
 
 endmodule

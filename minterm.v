@@ -4,7 +4,7 @@ module minterm (
 );
 
     assign Y = (~A & ~B & D) |
-        (B & ~C & ~D) |
-        (C & ~D); // Enter your equation here
+        (~D & B) |
+        (~D & C); // Enter your equation here
 
 endmodule
